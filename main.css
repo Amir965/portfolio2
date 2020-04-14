@@ -8,7 +8,7 @@ html {
 }
 .container {
   background-color: silver;
-  height: 25vh;
+  height: 20vh;
 }
 .container h1 {
   padding-top: 20px;
@@ -80,19 +80,19 @@ a {
   margin-left: 30px;
 }
 .pd_1 {
-  margin-top: -24.1%;
+  margin-top: -19%;
   font-size: 8px;
   padding-left: 80px;
   line-height: 20px;
 }
 .container img {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
   /* border-radius: 100%; */
   object-fit: cover;
   float: right;
-  margin-top: -30%;
-  margin-right: 65px;
+  margin-top: -20%;
+  margin-right: 130px;
 }
 .container h4 {
   font-size: 10px;
