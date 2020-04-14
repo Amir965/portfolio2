@@ -49,7 +49,7 @@ a {
 .about {
   /* margin-top: 10px; */
   background-color: skyblue;
-  height: 30vh;
+  height: 25vh;
 }
 .about-info {
   /* padding-top: 10px; */
@@ -105,7 +105,7 @@ a {
 }
 .skills {
   background-color: skyblue;
-  height: 30vh;
+  height: 50vh;
 }
 .skills-info {
   /* padding-top: 10px; */
@@ -123,4 +123,187 @@ a {
   letter-spacing: 1px;
   background-color: darkgreen;
   border-radius: 10px;
+}
+
+/* #skil_icon {
+  font-size: 25px;
+  color: white;
+  border: 1px solid rgb(82, 82, 240);
+  background: rgb(82, 82, 240);
+  padding: 3px 13px 3px 13px;
+  border-radius: 10px;
+} */
+
+/* .skil_name {
+  padding-top: 10px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: white;
+} */
+
+.center {
+  background: rgb(35, 38, 47);
+  color: white;
+  text-align: start;
+  padding: 40px 20px 20px 125px;
+}
+
+/* .software {
+  font-size: 28px;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  letter-spacing: 1.5px;
+} */
+.skillbox {
+  width: 85%;
+  margin: 20px 0px;
+}
+.skillbox p {
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  margin-left: 30px;
+  padding: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.skillbox p:nth-child(2) {
+  float: right;
+  position: relative;
+  top: -27px;
+}
+.skill {
+  background: #3d3d3d;
+  padding: 3px;
+  border: 2px solid rgb(37, 167, 144);
+  border-radius: 6px;
+}
+/* .skill_level_1 {
+  background: rgb(37, 167, 144);
+  width: 0%;
+  height: 10px;
+  animation-name: bar1;
+  animation-duration: 6.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+@keyframes bar1 {
+  to {
+    width: 50%;
+  }
+}
+
+.skill_level_2 {
+  background: rgb(37, 167, 144);
+  width: 0%;
+  height: 10px;
+  animation-name: bar2;
+  animation-duration: 6.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+@keyframes bar2 {
+  to {
+    width: 30%;
+  }
+}
+.skill_level_3 {
+  background: rgb(37, 167, 144);
+  width: 0%;
+  height: 10px;
+  animation-name: bar3;
+  animation-duration: 6.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+@keyframes bar3 {
+  to {
+    width: 45%;
+  }
+} */
+.skill_level_1 {
+  background: rgb(37, 167, 144);
+  width: 0%;
+  height: 10px;
+  animation-name: bar1;
+  animation-duration: 6.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+@keyframes bar1 {
+  to {
+    width: 88%;
+  }
+}
+.skill_level_2 {
+  background: rgb(37, 167, 144);
+  width: 0%;
+  height: 10px;
+  animation-name: bar2;
+  animation-duration: 6.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+@keyframes bar2 {
+  to {
+    width: 75%;
+  }
+}
+
+.skill_level_3 {
+  background: rgb(37, 167, 144);
+  width: 0%;
+  height: 10px;
+  animation-name: bar3;
+  animation-duration: 6.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+@keyframes bar3 {
+  to {
+    width: 25%;
+  }
+}
+.skill_level_4 {
+  background: rgb(37, 167, 144);
+  width: 0%;
+  height: 10px;
+  animation-name: bar4;
+  animation-duration: 6.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+@keyframes bar4 {
+  to {
+    width: 0%;
+  }
+}
+.contact {
+  /* margin-top: 10px; */
+  background-color: yellowgreen;
+  /* height: 50vh; */
+}
+.contact-info {
+  /* padding-top: 10px; */
+  box-shadow: 0 0 1.2rem rgb(0, 0, 0, 0.25);
+  margin-left: 30px;
+  margin-right: 60%;
+  border-radius: 10px;
+  /* transform: translateX(10%); */
+  /* z-index: 1; */
+}
+.contact h5 {
+  padding: 15px;
+  font-size: 10px;
+  color: white;
+  letter-spacing: 1px;
+  background-color: darkgreen;
+  border-radius: 10px;
+}
+.logo {
+  margin-top: -20%;
+  margin-left: 30px;
+}
+.logo img {
+  height: 30px;
 }
