@@ -8,7 +8,7 @@ html {
 }
 .container {
   background-color: silver;
-  height: 20vh;
+  height: 25vh;
 }
 .container h1 {
   padding-top: 20px;
@@ -49,7 +49,7 @@ a {
 .about {
   /* margin-top: 10px; */
   background-color: skyblue;
-  height: 35vh;
+  height: 45vh;
 }
 .about-info {
   /* padding-top: 10px; */
@@ -72,7 +72,7 @@ a {
 }
 
 .pd {
-  margin-top: 30px;
+  margin-top: 10%;
   font-size: 8px;
   text-transform: capitalize;
   line-height: 20px;
@@ -88,17 +88,17 @@ a {
   line-height: 20px;
 }
 .container img {
-  height: 150px;
-  width: 150px;
+  height: 125px;
+  width: 121px;
   border-radius: 100%;
   object-fit: cover;
   float: right;
-  margin-top: -22%;
+  margin-top: -20%;
   margin-right: 20px;
 }
 .skills {
   background-color: skyblue;
-  height: 50vh;
+  height: 65vh;
 }
 .skills-info {
   /* padding-top: 10px; */
@@ -120,12 +120,12 @@ a {
   text-align: center;
 }
 
-.center {
+/* .center {
   background: rgb(35, 38, 47);
   color: white;
   text-align: start;
   padding: 40px 20px 20px 125px;
-}
+} */
 
 /* .software {
   font-size: 28px;
@@ -134,13 +134,13 @@ a {
   letter-spacing: 1.5px;
 } */
 .skillbox {
-  width: 85%;
-  margin: 20px 0px;
+  width: 80%;
+  margin: 30px;
 }
 .skillbox p {
   text-transform: uppercase;
   margin: 0 0 10px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
   padding: 0;
   font-weight: bold;
   letter-spacing: 1px;
@@ -282,14 +282,14 @@ a {
   text-align: center;
 }
 .logo {
-  margin-top: -20%;
+  margin-top: -25%;
   margin-left: 30%;
 }
 .logo img {
   height: 30px;
 }
 .cop {
-  margin-top: 10px;
+  /* margin-top: 20px; */
 }
 .copyright {
   border-top: 1.5px solid rgb(72, 177, 156);
