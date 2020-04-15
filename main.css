@@ -6,15 +6,27 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(123, 90, 224, 1) 11.2%,
+    rgba(164, 46, 253, 1) 32.6%,
+    rgba(213, 56, 234, 1) 62.7%,
+    rgba(251, 138, 52, 1) 100.2%
+  );
+  background-size: cover;
+  background-attachment: fixed;
+}
 .container {
-  background-color: silver;
   height: 25vh;
 }
 .container h1 {
   padding-top: 20px;
   margin-left: 30px;
   letter-spacing: 5px;
-  /* font-weight: bold; */
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .container h6 {
   margin-left: 30px;
@@ -48,7 +60,8 @@ a {
 }
 .about {
   /* margin-top: 10px; */
-  background-color: skyblue;
+  /* background-color: skyblue; */
+
   height: 45vh;
 }
 .about-info {
@@ -77,7 +90,7 @@ a {
   text-transform: capitalize;
   line-height: 20px;
   letter-spacing: 1px;
-  color: black;
+  color: #fee140;
   font-weight: bolder;
   margin-left: 30px;
 }
@@ -86,6 +99,7 @@ a {
   font-size: 8px;
   padding-left: 80px;
   line-height: 20px;
+  color: #eee;
 }
 .container img {
   height: 125px;
@@ -97,8 +111,8 @@ a {
   margin-right: 20px;
 }
 .skills {
-  background-color: skyblue;
-  height: 65vh;
+  /* background-color: skyblue; */
+  height: 72vh;
 }
 .skills-info {
   /* padding-top: 10px; */
@@ -120,19 +134,6 @@ a {
   text-align: center;
 }
 
-/* .center {
-  background: rgb(35, 38, 47);
-  color: white;
-  text-align: start;
-  padding: 40px 20px 20px 125px;
-} */
-
-/* .software {
-  font-size: 28px;
-  text-transform: capitalize;
-  padding-bottom: 20px;
-  letter-spacing: 1.5px;
-} */
 .skillbox {
   width: 80%;
   margin: 30px;
@@ -157,49 +158,7 @@ a {
   border: 2px solid rgb(37, 167, 144);
   border-radius: 6px;
 }
-/* .skill_level_1 {
-  background: rgb(37, 167, 144);
-  width: 0%;
-  height: 10px;
-  animation-name: bar1;
-  animation-duration: 6.5s;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
-}
-@keyframes bar1 {
-  to {
-    width: 50%;
-  }
-}
 
-.skill_level_2 {
-  background: rgb(37, 167, 144);
-  width: 0%;
-  height: 10px;
-  animation-name: bar2;
-  animation-duration: 6.5s;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
-}
-@keyframes bar2 {
-  to {
-    width: 30%;
-  }
-}
-.skill_level_3 {
-  background: rgb(37, 167, 144);
-  width: 0%;
-  height: 10px;
-  animation-name: bar3;
-  animation-duration: 6.5s;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
-}
-@keyframes bar3 {
-  to {
-    width: 45%;
-  }
-} */
 .skill_level_1 {
   background: rgb(37, 167, 144);
   width: 0%;
@@ -258,9 +217,12 @@ a {
   }
 }
 .contact {
-  /* margin-top: 10px; */
-  background-color: yellowgreen;
-  /* height: 50vh; */
+  /* background-color: yellowgreen; */
+  /* background-color: #252627; */
+  /* background-color: #fee140; */
+  background-image: linear-gradient(90deg, #fee140 0%, #fa709a 100%);
+  background-size: cover;
+  background-attachment: fixed;
 }
 .contact-info {
   /* padding-top: 10px; */
