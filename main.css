@@ -54,9 +54,10 @@ a {
 .about-info {
   /* padding-top: 10px; */
   box-shadow: 0 0 1.2rem rgb(0, 0, 0, 0.25);
-  margin-left: 30px;
-  margin-right: 60%;
+  margin-left: 30%;
+  margin-right: 30%;
   border-radius: 10px;
+  text-align: center;
   /* transform: translateX(10%); */
   /* z-index: 1; */
 }
@@ -67,6 +68,7 @@ a {
   letter-spacing: 1px;
   background-color: darkgreen;
   border-radius: 10px;
+  text-align: center;
 }
 
 .pd {
@@ -80,7 +82,7 @@ a {
   margin-left: 30px;
 }
 .pd_1 {
-  margin-top: -19%;
+  margin-top: -20%;
   font-size: 8px;
   padding-left: 80px;
   line-height: 20px;
@@ -88,11 +90,11 @@ a {
 .container img {
   height: 80px;
   width: 80px;
-  /* border-radius: 100%; */
+  border-radius: 100%;
   object-fit: cover;
   float: right;
   margin-top: -20%;
-  margin-right: 130px;
+  margin-right: 128px;
 }
 .container h4 {
   font-size: 10px;
@@ -110,8 +112,9 @@ a {
 .skills-info {
   /* padding-top: 10px; */
   box-shadow: 0 0 1.2rem rgb(0, 0, 0, 0.25);
-  margin-left: 30px;
-  margin-right: 60%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
   border-radius: 10px;
   /* transform: translateX(10%); */
   /* z-index: 1; */
@@ -123,23 +126,8 @@ a {
   letter-spacing: 1px;
   background-color: darkgreen;
   border-radius: 10px;
+  text-align: center;
 }
-
-/* #skil_icon {
-  font-size: 25px;
-  color: white;
-  border: 1px solid rgb(82, 82, 240);
-  background: rgb(82, 82, 240);
-  padding: 3px 13px 3px 13px;
-  border-radius: 10px;
-} */
-
-/* .skil_name {
-  padding-top: 10px;
-  font-size: 30px;
-  text-transform: capitalize;
-  color: white;
-} */
 
 .center {
   background: rgb(35, 38, 47);
@@ -286,8 +274,9 @@ a {
 .contact-info {
   /* padding-top: 10px; */
   box-shadow: 0 0 1.2rem rgb(0, 0, 0, 0.25);
-  margin-left: 30px;
-  margin-right: 60%;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
   border-radius: 10px;
   /* transform: translateX(10%); */
   /* z-index: 1; */
@@ -299,11 +288,30 @@ a {
   letter-spacing: 1px;
   background-color: darkgreen;
   border-radius: 10px;
+  text-align: center;
 }
 .logo {
   margin-top: -20%;
-  margin-left: 30px;
+  margin-left: 30%;
 }
 .logo img {
   height: 30px;
+}
+.cop {
+  margin-top: 10px;
+}
+.copyright {
+  border-top: 1.5px solid rgb(72, 177, 156);
+  margin: 5px 20px 0 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: white;
+  padding: 2px 0 6px 0;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: black;
+}
+.copy {
+  font-size: 15px;
 }
