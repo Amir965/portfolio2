@@ -83,9 +83,44 @@ a {
   border-radius: 10px;
   text-align: center;
 }
-
 .pd {
-  margin-top: 10%;
+  float: left;
+  margin-top: 20px;
+}
+.detail p {
+  margin-left: 30px;
+  font-size: 8px;
+  line-height: 20px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  color: #fa709a;
+}
+.detail span {
+  text-align: left;
+  color: #eee;
+  letter-spacing: 1px;
+  font-size: 8px;
+}
+.pd img {
+  float: right;
+  height: 100px;
+  width: 100px;
+  margin-top: -85px;
+  border-radius: 50%;
+  margin-right: -105px;
+  object-fit: cover;
+}
+.container button {
+  margin-top: 20px;
+  margin-left: 120px;
+  width: 90px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+/* .pd {
+  margin-top: 20px;
   font-size: 8px;
   text-transform: capitalize;
   line-height: 20px;
@@ -100,8 +135,8 @@ a {
   padding-left: 80px;
   line-height: 20px;
   color: #eee;
-}
-.container img {
+} */
+/* .container img {
   height: 125px;
   width: 121px;
   border-radius: 100%;
@@ -109,7 +144,7 @@ a {
   float: right;
   margin-top: -20%;
   margin-right: 20px;
-}
+} */
 .skills {
   /* background-color: skyblue; */
   height: 72vh;
