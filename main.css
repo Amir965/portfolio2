@@ -59,13 +59,9 @@ a {
   letter-spacing: 1px;
 }
 .about {
-  /* margin-top: 10px; */
-  /* background-color: skyblue; */
-
-  height: 45vh;
+  height: 40vh;
 }
 .about-info {
-  /* padding-top: 10px; */
   box-shadow: 0 0 1.2rem rgb(0, 0, 0, 0.25);
   margin-left: 30%;
   margin-right: 30%;
@@ -83,11 +79,13 @@ a {
   border-radius: 10px;
   text-align: center;
 }
-.pd {
-  float: left;
+.detail {
   margin-top: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
 }
-.detail p {
+.pd p {
   margin-left: 30px;
   font-size: 8px;
   line-height: 20px;
@@ -96,55 +94,26 @@ a {
   font-weight: bolder;
   color: #fa709a;
 }
-.detail span {
-  text-align: left;
+.pd span {
   color: #eee;
   letter-spacing: 1px;
   font-size: 8px;
 }
-.pd img {
-  float: right;
+.detail img {
   height: 100px;
   width: 100px;
-  margin-top: -85px;
   border-radius: 50%;
-  margin-right: -105px;
-  object-fit: cover;
-}
-.container button {
-  margin-top: 20px;
-  margin-left: 120px;
-  width: 90px;
-  height: 25px;
-  border-radius: 5px;
+  /* object-fit: cover; */
 }
 
-/* .pd {
+.about button {
+  text-decoration: none;
   margin-top: 20px;
-  font-size: 8px;
-  text-transform: capitalize;
-  line-height: 20px;
-  letter-spacing: 1px;
-  color: #fee140;
-  font-weight: bolder;
-  margin-left: 30px;
+  margin-left: 120px;
+  height: 20px;
+  width: 90px;
+  border-radius: 10px;
 }
-.pd_1 {
-  margin-top: -20%;
-  font-size: 8px;
-  padding-left: 80px;
-  line-height: 20px;
-  color: #eee;
-} */
-/* .container img {
-  height: 125px;
-  width: 121px;
-  border-radius: 100%;
-  object-fit: cover;
-  float: right;
-  margin-top: -20%;
-  margin-right: 20px;
-} */
 .skills {
   /* background-color: skyblue; */
   height: 72vh;
