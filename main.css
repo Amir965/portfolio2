@@ -33,7 +33,6 @@ body {
   font-size: 10px;
 }
 .menu {
-  /* margin-left: 30px; */
   background-color: darkgreen;
   margin-top: 10px;
   margin-left: 30px;
@@ -44,7 +43,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* box-sizing: border-box; */
 }
 li {
   list-style: none;
@@ -67,8 +65,6 @@ a {
   margin-right: 30%;
   border-radius: 10px;
   text-align: center;
-  /* transform: translateX(10%); */
-  /* z-index: 1; */
 }
 .about h5 {
   padding: 15px;
@@ -82,7 +78,7 @@ a {
 .detail {
   margin-top: 20px;
   display: flex;
-  /* flex-direction: column; */
+
   justify-content: space-around;
 }
 .pd p {
@@ -103,7 +99,6 @@ a {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  /* object-fit: cover; */
 }
 
 .about button {
@@ -113,20 +108,17 @@ a {
   height: 20px;
   width: 90px;
   border-radius: 10px;
+  border: none;
 }
 .skills {
-  /* background-color: skyblue; */
   height: 72vh;
 }
 .skills-info {
-  /* padding-top: 10px; */
   box-shadow: 0 0 1.2rem rgb(0, 0, 0, 0.25);
   margin-left: 30%;
   margin-right: 30%;
   text-align: center;
   border-radius: 10px;
-  /* transform: translateX(10%); */
-  /* z-index: 1; */
 }
 .skills h5 {
   padding: 15px;
@@ -145,7 +137,6 @@ a {
 .skillbox p {
   text-transform: uppercase;
   margin: 0 0 10px;
-  /* margin-left: 30px; */
   padding: 0;
   font-weight: bold;
   letter-spacing: 1px;
@@ -221,22 +212,16 @@ a {
   }
 }
 .contact {
-  /* background-color: yellowgreen; */
-  /* background-color: #252627; */
-  /* background-color: #fee140; */
   background-image: linear-gradient(90deg, #fee140 0%, #fa709a 100%);
   background-size: cover;
   background-attachment: fixed;
 }
 .contact-info {
-  /* padding-top: 10px; */
   box-shadow: 0 0 1.2rem rgb(0, 0, 0, 0.25);
   margin-left: 30%;
   margin-right: 30%;
   text-align: center;
   border-radius: 10px;
-  /* transform: translateX(10%); */
-  /* z-index: 1; */
 }
 .contact h5 {
   padding: 15px;
@@ -255,7 +240,6 @@ a {
   height: 30px;
 }
 .cop {
-  /* margin-top: 20px; */
 }
 .copyright {
   border-top: 1.5px solid rgb(72, 177, 156);

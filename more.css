@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(images/bg.jpg);
+}
+.container h1 {
+  margin-top: 20px;
+  margin-left: 30px;
+  letter-spacing: 5px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container h6 {
+  margin-left: 30px;
+  font-size: 10px;
+}
+.container button {
+  margin-top: 10px;
+  margin-left: 30px;
+  height: 20px;
+  width: 50px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border: none;
+}
+.details {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.details p {
+  padding: 10px;
+  text-align: initial;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.Acdetail {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
+.Acdetail h1 {
+  text-align: center;
+}
+.Acdetail p {
+  margin-top: 20px;
+  text-align: initial;
+  line-height: 20px;
+  font-size: 12px;
+  /* letter-spacing: 1px; */
+}
+.Acdetail span {
+  color: black;
+  font-weight: bolder;
+}
+.cop {
+  margin-top: 20px;
+}
+.copyright {
+  border-top: 1.5px solid rgb(72, 177, 156);
+  margin: 5px 20px 0 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: white;
+  padding: 2px 0 6px 0;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  /* background-color: rgb(49, 48, 48); */
+}
+.copy {
+  font-size: 15px;
+}
